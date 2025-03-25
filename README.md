@@ -151,14 +151,16 @@ Comparando com a fórmula:
 
     T(n) = aT(n/b) + f(n)
 
-Temos:
-- a = 2
-- b = 2
-- f(n) = O(1)
-- log_b a = log₂ 2 = 1
+Aplicando o Teorema Mestre à recorrência T(n) = 2T(n/2) + O(1):
 
-Como f(n) = O(n^c) com c < 1, estamos no **caso 1** do Teorema Mestre.  
-**Solução assintótica:** T(n) = Θ(n).
+- a = 2 (dois subproblemas)
+- b = 2 (divisão ao meio)
+- f(n) = O(1) (custo externo constante)
+- log_b a = log₂ 2 = 1
+- f(n) = O(n^c), com c = 0 < 1 → Caso 1 do Teorema Mestre
+
+✅ Portanto, a complexidade assintótica é T(n) = Θ(n)
+
 
 ---
 ### Diagrama de Fluxo
