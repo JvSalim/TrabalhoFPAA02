@@ -22,8 +22,7 @@ A proposta visa demonstrar ganhos de desempenho por meio da redução no número
 ```
 ├── main.py              → Implementação do algoritmo
 ├── test_maxmin.py       → Testes unitários
-├── assets/
-│   ├── diagrama_fluxo.png
+├── diagrama_fluxo.png   → Diagrama de fluxo
 └── README.md            → Documentação completa
 ```
 
