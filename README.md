@@ -224,7 +224,7 @@ Esse resultado comprova a vantagem do uso da técnica de divisão e conquista ne
 
 Abaixo, o diagrama que ilustra a divisão e combinação no algoritmo MaxMin Select:
 
-![Diagrama de Fluxo](assets/diagrama_fluxo.png)
+![Diagrama de Fluxo](/diagrama_fluxo.png)
 
 ---
 
