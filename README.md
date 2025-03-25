@@ -12,8 +12,8 @@
 
 ## 🎯 Objetivo do Projeto
 
-Implementar o algoritmo **MaxMin Select** para encontrar **simultaneamente o maior e o menor elemento** de uma sequência numérica utilizando a técnica de **divisão e conquista**.  
-A proposta visa demonstrar ganhos de desempenho por meio da **redução no número de comparações**, em relação à abordagem ingênua, mantendo complexidade linear.
+Implementar o algoritmo **MaxMin Select** para encontrar simultaneamente o maior e o menor elemento de uma sequência numérica utilizando a técnica de divisão e conquista.  
+A proposta visa demonstrar ganhos de desempenho por meio da redução no número de comparações, em relação à abordagem ingênua, mantendo complexidade linear.
 
 ---
 
@@ -120,7 +120,7 @@ O algoritmo **MaxMin Select** utiliza a técnica de divisão e conquista para re
 A cada nível de recursão:
 
 - O problema é dividido em 2 subproblemas de tamanho `n/2`
-- Após as chamadas recursivas, são feitas **2 comparações**:
+- Após as chamadas recursivas, são feitas 2 comparações:
   - 1 para determinar o maior valor
   - 1 para determinar o menor valor
 
@@ -139,7 +139,7 @@ T(n) = 2T(n/2) + 2
 
 - O array é dividido em duas partes
 - Cada chamada retorna os pares (máximo, mínimo)
-- São feitas **2 comparações** para combinar os resultados
+- São feitas 2 comparações para combinar os resultados
 
 ### 🧱 Profundidade da recursão
 
@@ -160,7 +160,7 @@ Esse somatório forma uma progressão geométrica e resulta em:
 T(n) = 2 × (n - 1) = 2n - 2   → (comparações na abordagem ingênua)
 ```
 
-Entretanto, o algoritmo **MaxMin Select** **evita comparações desnecessárias**, economizando aproximadamente 25% das operações.
+Entretanto, o algoritmo **MaxMin Select** evita comparações desnecessárias, economizando aproximadamente 25% das operações.
 
 ### ✅ Fórmula final
 
@@ -226,7 +226,7 @@ Esse resultado comprova a vantagem do uso da técnica de divisão e conquista ne
 
 ## 🧭 Diagrama de Fluxo
 
-Abaixo, o diagrama que ilustra a **divisão e combinação** no algoritmo MaxMin Select:
+Abaixo, o diagrama que ilustra a divisão e combinação no algoritmo MaxMin Select:
 
 ![Diagrama de Fluxo](assets/diagrama_fluxo.png)
 
